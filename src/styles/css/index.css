@@ -496,9 +496,9 @@ input {
   justify-content: space-between;
   padding: 10px 30px; }
 
-.filterCheck {
+input.filterCheck {
   width: 15px;
-  margin: 3px;
+  margin: 5px;
   color: #40476D;
   box-shadow: none; }
 
@@ -511,26 +511,26 @@ input {
   align-self: center;
   margin-bottom: 50px; }
 
-h2 {
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  padding: 5px;
-  color: #40476D; }
-
 .subMain {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: space-between; }
   .subMain h2 {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px;
+    color: #40476D;
     text-align: left;
     font-size: 1.8em;
+    margin: 0;
     margin-bottom: 10px; }
 
 .main label {
   display: inline-block;
   font-size: 1.2em;
+  font-weight: 300;
   margin: 0;
   padding-top: 3px;
   width: 100%;
@@ -551,6 +551,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
+  justify-content: space-between;
   padding: 20px;
   margin: 10px auto; }
 
@@ -612,7 +613,8 @@ li {
     font-size: 1em;
     padding: 5px;
     margin: 5px;
-    text-align: right; }
+    text-align: right;
+    font-weight: 300; }
 
 li .edit {
   margin: 5px;
