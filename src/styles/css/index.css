@@ -430,6 +430,8 @@ template {
 * {
   margin: 0;
   padding: 0; }
+  *:focus {
+    outline: none; }
 
 .wrapper {
   max-width: 800px;
@@ -482,9 +484,8 @@ input {
   font-weight: 400;
   border: none;
   box-shadow: 1px 2px #C0445B;
-  max-height: 35px; }
-  .submitButton:focus, .clear:focus, li .edit:focus, li .remove:focus {
-    outline: none; }
+  max-height: 35px;
+  border-radius: 3px; }
   .submitButton:hover, .clear:hover, li .edit:hover, li .remove:hover {
     background-color: #C0445B;
     box-shadow: 0px 2px #EA526F; }
@@ -495,17 +496,11 @@ input {
   justify-content: space-between;
   padding: 10px 30px; }
 
-.subMain {
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end; }
-
 .filterCheck {
-  display: inline-block;
   width: 15px;
   margin: 3px;
-  color: #40476D; }
+  color: #40476D;
+  box-shadow: none; }
 
 .clear {
   background-color: #EA526F;
@@ -525,17 +520,32 @@ h2 {
 
 .subMain {
   display: flex;
-  flex-direction: row;
-  justify-content: center; }
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: space-between; }
+  .subMain h2 {
+    text-align: left;
+    font-size: 1.8em;
+    margin-bottom: 10px; }
 
 .main label {
   display: inline-block;
-  margin: 5px;
+  font-size: 1.2em;
+  margin: 0;
   padding-top: 3px;
+  width: 100%;
+  text-align: left;
   color: #40476D; }
 
 .subMain input {
   align-self: center; }
+
+.subMainLeft {
+  color: #40476D;
+  text-align: right;
+  font-size: 1.2em; }
+  .subMainLeft td {
+    padding: 1px 0; }
 
 ul {
   display: flex;
@@ -543,6 +553,19 @@ ul {
   list-style: none;
   padding: 20px;
   margin: 10px auto; }
+
+li.pending {
+  display: flex;
+  justify-content: flex-start; }
+
+span.pending-name {
+  text-align: left;
+  color: rgba(64, 71, 109, 0.5);
+  width: 100%;
+  height: 25%;
+  font-size: 1.7em;
+  padding: 5px;
+  margin: 5px; }
 
 li {
   width: 30%;
@@ -570,9 +593,8 @@ li {
     box-shadow: inset 0px 0px 2px 2px rgba(221, 221, 221, 0.5);
     border-radius: 2px;
     font-family: "Open Sans", sans-serif; }
-    li .editInput:focus {
-      outline: none; }
-  li span {
+  li .name {
+    text-align: left;
     color: #40476D;
     width: 100%;
     height: 25%;

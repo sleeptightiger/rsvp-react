@@ -1,0 +1,64 @@
+<input type="radio" name="slides" id="slide-5-trigger">
+            <section class="project-slide slide-five">
+              <div class="description">
+                <h2><a href="https://github.com/sleeptightiger/rsvp-react" target="_blank" rel="noopener noreferrer">RSVP w/ React.js</a><a href="https://github.com/sleeptightiger/rsvp-react" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i></a></h2>
+                <h3>Technologies Used:</h3>
+                <p>React.js | Babel | Sass</p>
+              </div>
+            </section>
+            <input type="radio" name="slides" id="slide-6-trigger">
+            <section class="project-slide slide-six">
+              <div class="description">
+                <h2><a href="#" target="_blank" rel="noopener noreferrer">To-Do-List w/ React.js</a><a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i></a></h2>
+                <h3>Technologies Used:</h3>
+                <p>React.js | Babel | Sass</p>
+              </div>
+            </section>
+            <input type="radio" name="slides" id="slide-7-trigger">
+            <section class="project-slide slide-seven">
+              <div class="description">
+                <h2><a href="https://code-scratch.herokuapp.com/" target="_blank" rel="noopener noreferrer">Code Scratch</a><a href="https://github.com/TangJames/Code-Scratch" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i></a></h2>
+                <h3>Technologies Used:</h3>
+                <p>React.js | Babel | Sass | Firebase | Heroku</p>
+              </div>
+            </section>
+            <input type="radio" name="slides" id="slide-8-trigger">
+            <section class="project-slide slide-eight">
+              <div class="description">
+                <h2><a href="#" target="_blank" rel="noopener noreferrer">Tic-Tac-Toe w/ React.js</a><a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i></a></h2>
+                <h3>Technologies Used:</h3>
+                <p>React.js | Babel | Sass </p>
+              </div>
+            </section>
+            <input type="radio" name="slides" id="slide-9-trigger">
+            <section class="project-slide slide-nine">
+              <div class="description">
+                <h2><a href="#" target="_blank" rel="noopener noreferrer">Hangman</a><a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i></a></h2>
+                <h3>Technologies Used:</h3>
+                <p>React.js | Babel | Sass | Firebase | API</p>
+              </div>
+            </section>
+            <input type="radio" name="slides" id="slide-10-trigger">
+            <section class="project-slide slide-ten">
+              <div class="description">
+                <h2><a href="https://github.com/sleeptightiger/ga-cards-react" target="_blank" rel="noopener noreferrer">Cards Against</a><a href="https://github.com/sleeptightiger/ga-cards-react" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i></a></h2>
+                <h3>Technologies Used:</h3>
+                <p>React.js | Firebase</p>
+              </div>
+            </section>
+            <input type="radio" name="slides" id="slide-11-trigger">
+            <section class="project-slide slide-eleven">
+              <div class="description">
+                <h2><a href="https://github.com/sleeptightiger/ajaxify-reddit" target="_blank" rel="noopener noreferrer">Ajaxify Reddit</a><a href="https://github.com/sleeptightiger/ajaxify-reddit" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i></a></h2>
+                <h3>Technologies Used:</h3>
+                <p>Ajax | Reddit API</p>
+              </div>
+            </section>
+            <input type="radio" name="slides" id="slide-12-trigger">
+            <section class="project-slide slide-twelve">
+              <div class="description">
+                <h2><a href="https://github.com/sleeptightiger/weather-app" target="_blank" rel="noopener noreferrer">Weather App</a><a href="https://github.com/sleeptightiger/weather-app" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i></a></h2>
+                <h3>Technologies Used:</h3>
+                <p>OpenWeatherMap API | JQuery | Ajax</p>
+              </div>
+            </section>

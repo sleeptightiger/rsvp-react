@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url(http://allfont.net/allfont.css?fonts=silkscreen);
+
+/* NAVBAR */
+
+body {
+  font-family: 'Silkscreen', arial;
+  margin: 0;
+  padding: 0;
+  background: #E0E0E0;
+  padding-top: 5%;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header h2,h3,a {
+/*   color: #34495e; */
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header .logo {
+  margin: 0;
+  font-size: 1.45em;
+}
+
+.header .main-nav {
+  margin-top: 5px;
+}
+
+.header .logo a, .header .main-nav a {
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  color: rgba(255,255,255,.8);
+}
+
+.header .logo a:hover, .header .main-nav a:hover {
+  color: rgba(255,255,255,.3);
+  font-size: 1.1em;
+}
+
+.header .main-nav a {
+/*   color: #34495e; */
+  font-size: .99em;
+}
+
+.header {
+  padding-top: .5em;
+  padding-bottom: .5em;
+  background-color: rgba(0,0,0,.5);
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+}
+
+.main-nav {
+  display: flex;
+}
+
+
+
+@media (max-width: 769px) {
+  body{
+    padding-top: 17%;
+  }
+  .header {
+    flex-direction: column;
+    align-items: center;
+    height: 80px;
+  }
+
+
+
+}
+
+
+
+
+/* Main Content */
+
+
+.container {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300 !important;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0px auto;
+  margin-left: 20%;
+  width: 960px;
+}
+
+.container p, h2, h3, a {
+  margin: 0px;
+  padding: 0px;
+  color: black;
+}
+
+.container a {
+  text-decoration: none;
+}
+.container a:hover {
+  color: #718daa;
+}
+
+.container i:hover {
+  color: #4CAF50;
+}
+
+.container .section {
+  justify-content: center;
+}
+
+.section ul{
+  list-style-type: none;
+}
+
+.section h3 {
+  text-indent: 10px;
+}
+
+.section ul > li {
+  text-indent: 25px;
+}
+
+
+.section > h1 {
+  font-size: 40px;
+  color: #4CAF50;
+}
+
+.section i {
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+
+.bold {
+  color: #4CAF50;
+
+}
+
+
+
+
+
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .header,
+    .main-nav {
+      display: flex;
+    }
+    .header {
+      flex-direction: column;
+      align-items: center;
+        .header {
+          width: 80%;
+          margin: 0 auto;
+        }
+    }
+    .header .logo {
+      margin-left: 0%;
+    }
+    .container {
+      margin-left: 4%;
+      width: 100%;
+    }
+    * {
+      font-size: .95em
+    }
+
+
+    .section ul {
+      padding-left: 20px;
+    }
+
+    .section > h1 {
+      font-size: 25px;
+      color: #4CAF50;
+    }
+    h2 {
+      font-size: 17px;
+    }
+
+}
